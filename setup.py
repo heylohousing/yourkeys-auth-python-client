@@ -1,7 +1,7 @@
 """
-    Yourkeys Public API
+    Yourkeys Authentication API
 
-    This API exposes endpoints that can be used to interact with the Yourkeys system  # noqa: E501
+    The authentication API exposes endpoints that are used to request a token to authenticate against the Yourkeys public APIs  # noqa: E501
 
     The version of the OpenAPI document: v1
     Contact: support@yourkeys.com
@@ -11,7 +11,7 @@
 
 from setuptools import setup, find_packages  # noqa: H301
 
-NAME = "openapi-client"
+NAME = "yk-auth-client"
 VERSION = "1.0.0"
 # To install the library, run the following
 #
@@ -28,16 +28,16 @@ REQUIRES = [
 setup(
     name=NAME,
     version=VERSION,
-    description="Yourkeys Public API",
+    description="Yourkeys Authentication API",
     author="Yourkeys",
     author_email="support@yourkeys.com",
     url="",
-    keywords=["OpenAPI", "OpenAPI-Generator", "Yourkeys Public API"],
+    keywords=["OpenAPI", "OpenAPI-Generator", "Yourkeys Authentication API"],
     python_requires=">=3.6",
     install_requires=REQUIRES,
     packages=find_packages(exclude=["test", "tests"]),
     include_package_data=True,
     long_description="""\
-    This API exposes endpoints that can be used to interact with the Yourkeys system  # noqa: E501
+    The authentication API exposes endpoints that are used to request a token to authenticate against the Yourkeys public APIs  # noqa: E501
     """
 )
