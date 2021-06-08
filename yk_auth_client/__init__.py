@@ -11,7 +11,7 @@
 """
 
 
-__version__ = "1.0.1"
+__version__ = "1.1.1"
 
 # import ApiClient
 from yk_auth_client.api_client import ApiClient
